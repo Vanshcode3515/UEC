@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UEC</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+           
+        }
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(210, 30, 30);
+            display: flex;
+            font-size: 30px;
+            padding: 4px;
+            margin-left: 76px;
+        }
+        .h2{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+            padding: 0px;
+            margin-left: 80px;
+        }
+        .search{
+            border-radius: 10px;
+            width: 80px;
+            height: 30px;
+            background-color: dodgerblue;
+            color: #fff;
+            border: none;
+            font-size: 15px;
+            font-weight: 100;
+            align-items: right;
+            justify-items: right;
+            align-items: right;
+            border: 2px solid black;
+            margin-top: 20px;
+               
+        }
+        .search:hover{
+           background-color: #000;
+        }
+        .student-login{
+            border-radius: 10px;
+            width: 100px;
+            height: 30px;
+            background-color: red;
+            color: #fff;
+            border: none;
+            font-size: small;
+            align-items: left;
+            justify-content: left;
+            
+        }
+        .student-login:hover{
+            background-color: #000000;
+        }
+        .student-login a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .nav-2{
+            width: 100%;
+            background-color: rgb(45, 45, 138);
+            height: 35px;
+
+            }
+        #About-us{
+            background-color: rgb(45, 45, 138);
+            border: none;
+            color: #fff;
+            position: relative;
+            display: inline-block;
+            height: 35px;
+
+            
+            
+        }
+        #About-us:hover{
+            background-color: black;
+            width:auto;
+            
+            
+        }
+        #About-us:hover{
+            background-color: rgb(246, 246, 246);
+            color: black;
+            border-radius: none;
+            
+
+        }
+  
+    .nav-3{
+            width: 100%;
+            height: 6%;
+            background-color: rgb(0, 174, 255);
+            height: 32px;}
+            .nav-3-1{
+                background-color: red;
+                width: 190px;
+                height: 100%;
+                font-weight: 900;
+                font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: large;
+                margin: 0px;
+                padding: 0px;
+                
+                margin: 0px;
+                align-items: center;
+            }
+            #home{
+                color: #fff;
+            }
+             .cardsection{
+                /* background-color: rgba(255, 2, 2, 0.086); */
+            display: grid;
+            grid-template-columns: auto auto;
+            /* justify-content: right; */
+            align-items: right;
+            width: 100%;
+            
+         
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin:0px 20px 0 20px ; */
+            height: 55vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background: url(https://i.pinimg.com/originals/ec/b0/6d/ecb06dd230000ad32e446a0aea81136c.jpg);
+        }
+        .slideimage{
+            width: 100vw;
+            justify-content: center;
+            display: flex;
+
+        }
+        .slideimage img{
+            width: 85%;
+            height: 50%;
+            object-fit: cover;
+            border-radius: 20px;
+            border: 5px solid white;
+        }
+      
+        .card {
+            background-color: #fff;
+            /* background-color:rgba(187, 174, 174, 0.368); */
+            border-radius: 10px;
+            padding: 20px;
+            margin: 4px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 140px;
+            text-align: center;
+          width: auto;
+          height: auto;
+
+        }
+
+        .card img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 0px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card h3 {
+            margin-top: 10;
+            display: flex;
+            align-items: center;
+        }
+        .logo_container{
+            height: 44px;
+            width: 45px;
+        }
+        .uec_home{
+            height: 85px;
+            margin-top:30px ;
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <div class="logo_container">
+                <a href="#"><img class="uec_home" src="uec_logo.png" alt="uec_home"></a>
+            </div>
+             <h1>UJJAIN ENGINEERING COLLEGE,UJJAIN</h1>
+        <h2 class="h2">AN AUTONOMOUS INSTITUTE OF GOVT.OF.M.P.</h2>
+        <div id="buttons">
+        <button class="search">Search</button>
+        <button class="student-login"><a href="resister.html">Student Login</a></button>
+    </div>
+    </div>
+    <br>
+    <div class="nav-2">
+        <select id="About-us"><option class="About-us">HOME</option></select>
+        <select id="About-us">
+            <option class="About-us">About Us</option>
+            <option value="Principal's message">Principal's message</option>
+            <option value="Vision-and-mission">Vision and mission</option>
+            <option value="Board-of-governer">Board of governer</option>
+            <option value="Administration">Administration</option>
+            <option value="Location">Location</option>
+            <option value="Budget">Budget</option>
+            <option value="Employee-property-detail">Employee property detail</option>
+            <option value="Annual-Reports">Annual Reports</option>
+        </select>
+        <select id="About-us">
+            <option value="Board-of-governer">Applied Science</option>
+            <option value="Board-of-governer">Chemical Engineering</option>
+            <option value="Board-of-governer">Civil Engineering</option>
+            <option value="Board-of-governer">Computer Science and engineering</option>
+            <option value="Board-of-governer">Electrical Engineering</option>
+            <option value="Board-of-governer">Electronic and comm.Engineering</option>
+            <option value="Board-of-governer">Mechanical Engineering</option>
+            <option value="Board-of-governer">Science and humanities</option>
+        </select>
+           <select id="About-us">
+            <option value="Board-of-governer">Admission</option>
+            <option value="Board-of-governer">Courses</option>
+            <option value="Board-of-governer">UG Admission</option>
+            <option value="Board-of-governer">phD Admission</option>
+            <option value="Board-of-governer">Admission Rule & proforma</option>
+            <option value="Board-of-governer">Fee structure</option>
+        </select>
+
+        <select id="About-us">
+            <option value="Board-of-governer">Academics</option>
+            <option value="Board-of-governer">NBA Accreditation status</option>
+            <option value="Board-of-governer">prospectus</option>
+            <option value="Board-of-governer">Professor Emeritus</option>
+            <option value="Board-of-governer">Academic calendar</option>
+            <option value="Board-of-governer">Ordinance</option>
+            <option value="Board-of-governer">Awards</option>
+            <option value="Board-of-governer">Syllabus</option>
+        </select>
+
+        <select id="About-us">
+            <option value="Board-of-governer">Students life</option>
+            <option value="Board-of-governer">Download Form</option>
+            <option value="Board-of-governer">Scholarship</option>
+            <option value="Board-of-governer">Alumni</option>
+        </select>
+
+        <select id="About-us">
+            <option value="Board-of-governer">Examination</option>
+            <option value="Board-of-governer">Exam Controller Team</option>
+            <option value="Board-of-governer">Exam Notices</option>
+            <option value="Board-of-governer">Exam time table</option>
+            <option value="Board-of-governer">results</option>
+        </select>
+        <select id="About-us">
+            <option value="Board-of-governer">Placement Cell</option>
+            <option value="Board-of-governer">About Traning & placement cell</option>
+            <option value="Board-of-governer">Tranining & placement team</option>
+            <option value="Board-of-governer">Leading Recruiters</option>
+            <option value="Board-of-governer">Top placement</option>
+        </select>
+        <select id="About-us">
+            <option value="Board-of-governer">Central Facilities</option>
+            <option value="Board-of-governer">Computer Center</option>
+            <option value="Board-of-governer">Workshop</option>
+            <option value="Board-of-governer">Gymnasium</option>
+            <option value="Board-of-governer">Dispensary</option>
+            <option value="Board-of-governer">Hostel & accommodation</option>
+            <option value="Board-of-governer">Library</option>
+            <option value="Board-of-governer">E-Library</option>
+        </select>
+    </div>
+</nav>
+</div>
+
+<div class="container">
+
+    <!-- Vansh bhsdk yaha Teko koi si bhi image teko image tag ke andar lagani hai teri hissab se  -->
+    <div class="slideimage">
+        <img src="slide01.jpg" alt="">
+    </div>
+
+    <div class="cardsection">
+
+        <div class="card">
+            <img src="calender.png" alt="calendar">
+            <h3>Academic calender</h3>
+        </div>
+        <div class="card">
+            <img src="student.png" alt="student">
+            <h3>Student registration</h3>
+        </div>
+        <div class="card">
+            <img src="checklist.png" alt="Result Declared">
+            <h3>Result Declared</h3>
+        </div>
+        <div class="card">
+            <img src="public.png" alt="alumni registration">
+            <h3>Almuni registration</h3>
+        </div>
+        <div class="card">
+            <img src="nirf.jfif" alt="NIRF">
+            <h3>NIRF</h3>
+        </div>
+    </div>
+
+    
+
+</div>
+<div class="nav-3">
+    <div class="nav-3-1">NOTIFICATION</div>
+</div>
+<script>
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+</html>
